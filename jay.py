@@ -18,11 +18,11 @@ logging.basicConfig(
 )
 
 # Configuration
-TOKEN = '7788865701:AAEW3E0_GZWjcwc4oyLKgFSuiV0d849mvXM'
+TOKEN = '8083299517:AAG_jnYf-aabaVYYTHKQGcTAVXaa0vyzsSw'
 CHANNEL_ID = '-1002298552334'
 OFFICIAL_CHANNEL = "@titanfreeop"
 CHANNEL_LINK = "https://t.me/titanfreeop"
-ADMIN_IDS = [7163028849, 7184121244]
+ADMIN_IDS = [7163028849, 5443095395]
 
 # File paths
 USERS_FILE = "users.txt"
