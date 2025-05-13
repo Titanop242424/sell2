@@ -24,8 +24,8 @@ message_queue = []
 
 
 # Official channel details
-OFFICIAL_CHANNEL = "@titanddos24opop"  # Replace with your channel username or ID
-CHANNEL_LINK = "https://t.me/titanddos24opop"  # Replace with your channel link
+OFFICIAL_CHANNEL = "@freeddospoi"  # Replace with your channel username or ID
+CHANNEL_LINK = "https://t.me/freeddospoi"  # Replace with your channel link
 
 # Initialize the bot
 bot = telebot.TeleBot(TOKEN)
@@ -245,7 +245,7 @@ def bgmi_command(message):
 
         # Create a "Support" button
         support_button = InlineKeyboardMarkup()
-        support_button.add(InlineKeyboardButton("🙏 Support 🙏", url="https://t.me/titanfreeop"))
+        support_button.add(InlineKeyboardButton("🙏 Support 🙏", url="https://t.me/freeddospoi"))
 
         # Send attack confirmation with attacker's name and support button
         bot.reply_to(
@@ -329,15 +329,15 @@ def send_welcome(message):
     - Daily limit: 15 attacks 📊
     - Banned for fake feedback 🚫
     
-    🔗 Support: @titanfreeop
-    🔰 Owner : @Titanop24
+    🔗 Support: @freeddospoi
+    🔰 Owner : @Rajwinder_chohan
     """
     
     # Add quick action buttons
     markup = telebot.types.InlineKeyboardMarkup()
     markup.add(
         telebot.types.InlineKeyboardButton("⚡ Start Attack", callback_data='start_bgmi'),
-        telebot.types.InlineKeyboardButton("📚 Tutorial", url='https://t.me/titanfreeop')
+        telebot.types.InlineKeyboardButton("📚 Tutorial", url='https://t.me/freeddospoi')
     )
     
     bot.send_message(
@@ -369,15 +369,15 @@ def send_help(message):
     - Attack limits: Prevents abuse 🛑
     
     📌 *Need Help?*
-    Contact support: @titanfreeop
-    Report issues: @Titanop24
+    Contact support: @freeddospoi
+    Report issues: @Rajwinder_chohan
     """
     
     # Add support buttons
     markup = telebot.types.InlineKeyboardMarkup()
     markup.add(
-        telebot.types.InlineKeyboardButton("🆘 Immediate Support", url='t.me/Titanop24'),
-        telebot.types.InlineKeyboardButton("📘 Documentation", url='https://t.me/titanfreeop')
+        telebot.types.InlineKeyboardButton("🆘 Immediate Support", url='t.me/Rajwinder_chohan'),
+        telebot.types.InlineKeyboardButton("📘 Documentation", url='https://t.me/freeddospoi')
     )
     
     bot.send_message(
